@@ -571,10 +571,13 @@ body{
 
 .secSixContent .emailSix{
     display: flex;
-    gap: 34px;
+    gap: 19rem;
     justify-content: center;
     background-color: #FFFFFF;
-    /* justify-content: space-between; */  
+    /* height: 83px; */
+    /* justify-content: space-between; */ 
+    border-radius: 32px;
+
 }
 
 .emaill p{
@@ -582,4 +585,82 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 27px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.emailSix .subscribeEmail{
+    background-color: #04e6a2;
+    /* border: 2px solid rebeccapurple; */
+    border-radius: 32px;
+    width: 13rem;
+    
+}
+
+.subscribeEmail p{
+    padding-top: 6px;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F4F6FF;
+    text-transform: capitalize;
+}
+
+.secSeven{
+    padding-top: 6rem;
+}
+
+.secSevenContent{
+    display: flex;
+    gap: 6.5rem;
+}
+
+/* .secSevenContent .logoFoot{
+    border: 2px solid red;
+} */
+
+.logoFoot .foott{
+    /* border: 2px solid red; */
+    padding-bottom: 10px;
+}
+
+.logoFoot h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+.logoFoot .insta{
+    /* border: 2px solid red; */
+    letter-spacing: 20px;
+}
+
+/* .insta img{} */
+
+.secSevenContent .textFoot{
+    display: flex;
+    gap: 90px;
+    padding-top: 25px;
+}
+
+.textFoot h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.textFoot p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 35px;
+    font-size: 16px;
+    /* text-align: left; */
 }
