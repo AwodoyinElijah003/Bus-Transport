@@ -785,6 +785,14 @@ label, input{
         gap: 20px;
     }
 
+    .secFour{
+        margin-top: 60px;
+    }
+
+    .secFourContent{
+        margin-top: 60px;
+    }
+
     .bottomFlex{
         flex-direction: column;
         gap: 20px;
@@ -795,6 +803,14 @@ label, input{
         gap: 20px;
     }
 
+    .rightDown{
+        display: none;
+    }
+
+    /* .subSecOneContent{
+        display: none;
+    } */
+
     .textFoot{
         flex-direction: column;
         gap: 20px;
@@ -803,5 +819,9 @@ label, input{
     footer{
         flex-direction: column;
         gap: 20px;
+    }
+
+    .genLayout{
+        padding: 0 20px;
     }
 }
